@@ -1,0 +1,20 @@
+[
+  {
+    "titulo": "Bem-vindo ao meu blog local!",
+    "autor": "Everton Morais",
+    "data": "2025-10-29",
+    "conteudo": "Esse é o primeiro artigo do meu blog moderno em Next.js! Aqui você vai aprender como criar rotas dinâmicas e SEO com Server Components."
+  },
+  {
+    "titulo": "Dicas para aprender React e Next.js",
+    "autor": "Everton Morais",
+    "data": "2025-10-28",
+    "conteudo": "Comece dominando os fundamentos do React: componentes, props e estado. Depois, avance para o Next.js, onde você pode trabalhar com rotas, SEO e renderização híbrida."
+  },
+  {
+    "titulo": "Usando CSS Modules no Next.js 16",
+    "autor": "Everton Morais",
+    "data": "2025-10-27",
+    "conteudo": "O CSS Modules permite estilizar seus componentes com escopo isolado. Basta criar arquivos .module.css e importar no componente."
+  }
+]
