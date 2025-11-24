@@ -1,4 +1,4 @@
-# 🚀 Projeto Next.js com CI/CD (GitHub Actions + Vercel)
+# Projeto Next.js com CI/CD (GitHub Actions + Vercel)
 
 Este repositório contém uma aplicação **Next.js** configurada com uma pipeline completa de **CI/CD**, incluindo:
 
@@ -9,7 +9,7 @@ Este repositório contém uma aplicação **Next.js** configurada com uma pipeli
 
 ---
 
-## 📦 Tecnologias Utilizadas
+##  Tecnologias Utilizadas
 
 - **Next.js**
 - **React**
@@ -19,7 +19,7 @@ Este repositório contém uma aplicação **Next.js** configurada com uma pipeli
 
 ---
 
-## 🔧 CI – Integração Contínua
+##  CI – Integração Contínua
 
 A pipeline de CI executa automaticamente a cada **push** ou **pull request** na branch `main`.
 
