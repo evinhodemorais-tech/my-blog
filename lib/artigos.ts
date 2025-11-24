@@ -14,12 +14,14 @@ export type Artigo = {
 export async function fetchArtigosLocal(): Promise<Artigo[]> {
   const filePath = path.join(process.cwd(), "data", "artigos.json");
   const jsonData = fs.readFileSync(filePath, "utf-8");
-  const artigos = JSON.parse(jsonData);
+  const artigos = JSON.parse(jsonData) as Array<Omit<Artigo, "slug">>;
 
-  return artigos.map((a: any) => ({
-    ...a,
-    slug: slugify(a.titulo, { lower: true, strict: true }),
-  }));
+  return artigos.map(function (a): Artigo {
+    return ({
+      ...a,
+      slug: slugify(a.titulo, { lower: true, strict: true }),
+    });
+  });
 }
 
 // Buscar um artigo por slug

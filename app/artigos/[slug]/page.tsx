@@ -1,5 +1,4 @@
 import { fetchArtigoPorSlug, fetchArtigosLocal } from "@/lib/artigos";
-import { notFound } from "next/navigation";
 import styles from "./Artigo.module.css";
 
 type Props = { params: { slug: string } };
