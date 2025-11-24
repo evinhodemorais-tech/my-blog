@@ -30,5 +30,21 @@ Etapas:
 - Execução de testes (`npm run test`)
 - Build da aplicação (`npm run build`)
 
-Arquivo responsável:
 
+
+## ▶ Como rodar o projeto localmente
+
+npm install
+npm run dev
+
+Acesse:
+
+http://localhost:3000
+
+
+
+
+
+## ▶ link Vercel
+
+https://my-blog-pearl-mu.vercel.app/
